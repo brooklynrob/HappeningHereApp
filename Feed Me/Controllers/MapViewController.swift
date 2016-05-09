@@ -43,7 +43,7 @@ class MapViewController: UIViewController {
     var locationManager = CLLocationManager()
   
     //The following the original data provider for the Ray Wenderlich tutorial
-    let dataProviderGoogle = GoogleDataProvider()
+    //let dataProviderGoogle = GoogleDataProvider()
   
     //The following is the data provider for the Happening Here backend
     let dataProviderHappeningHere = HappeningHereDataProvider()
@@ -51,7 +51,10 @@ class MapViewController: UIViewController {
 
   
   
-  var searchedTypes = ["bakery", "bar", "cafe", "grocery_or_supermarket", "restaurant", "venue", "pollsite"]
+  //var searchedTypes = ["bakery", "bar", "cafe", "grocery_or_supermarket", "restaurant", "pollsite", "venue"]
+  
+  
+    var searchedTypes = ["citibike", "liquor_license_applicant", "pollsite", "venue"]
 
   
   override func viewDidLoad() {

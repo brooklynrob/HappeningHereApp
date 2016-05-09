@@ -34,7 +34,10 @@ class TypesTableViewController: UITableViewController {
   
   //let possibleTypesDictionary = ["bakery":"Bakery", "bar":"Bar", "cafe":"Cafe", "grocery_or_supermarket":"Supermarket", "restaurant":"Restaurant", "venue": "Event Venue", "pollsite": "Polling Site"]
   
-  let possibleTypesDictionary = ["venue": "Event Venue", "pollsite": "Polling Site"]
+  let possibleTypesDictionary = ["venue": "Event Venue", "pollsite": "Polling Site", "citibike": "Citibike", "liquor_license_applicant" : "Liquor License Applicant"]
+
+  
+  
   var selectedTypes: [String]!
   weak var delegate: TypesTableViewControllerDelegate!
   var sortedKeys: [String] {

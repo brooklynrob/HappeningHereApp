@@ -13,15 +13,12 @@
 		B48F647319B22EB200710BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48F647119B22EB200710BEB /* Main.storyboard */; };
 		B48F647519B22EB200710BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48F647419B22EB200710BEB /* Images.xcassets */; };
 		B48F648E19B22F8700710BEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F648D19B22F8700710BEB /* MapViewController.swift */; };
-		B48F649219B22F9400710BEB /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */; };
-		B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649019B22F9400710BEB /* GooglePlace.swift */; };
 		B48F649819B22F9B00710BEB /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649519B22F9B00710BEB /* MarkerInfoView.swift */; };
 		B48F649919B22F9B00710BEB /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48F649619B22F9B00710BEB /* MarkerInfoView.xib */; };
 		B48F649A19B22F9B00710BEB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649719B22F9B00710BEB /* UIViewExtension.swift */; };
 		B48F649C19B22FA500710BEB /* TypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F649B19B22FA500710BEB /* TypesTableViewController.swift */; };
 		EF1A0FD11CD6B46600E9D142 /* HappeningHerePlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A0FD01CD6B46600E9D142 /* HappeningHerePlaceMarker.swift */; };
 		EF379E861CD54DA400DA6E29 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF379E851CD54DA400DA6E29 /* MapKit.framework */; };
-		EF379E881CD5810900DA6E29 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF379E871CD5810900DA6E29 /* PlaceMarker.swift */; };
 		EF379E8A1CD6945300DA6E29 /* HappeningHereDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF379E891CD6945300DA6E29 /* HappeningHereDataProvider.swift */; };
 		EF379E8C1CD6946700DA6E29 /* HappeningHerePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF379E8B1CD6946700DA6E29 /* HappeningHerePlace.swift */; };
 		EF6FCAE91CD5207700E30A44 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6FCAE81CD5207700E30A44 /* SwiftyJSON.swift */; };
@@ -41,15 +38,12 @@
 		B48F647F19B22EB200710BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48F648019B22EB200710BEB /* Feed_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed_MeTests.swift; sourceTree = "<group>"; };
 		B48F648D19B22F8700710BEB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
-		B48F649019B22F9400710BEB /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
 		B48F649519B22F9B00710BEB /* MarkerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
 		B48F649619B22F9B00710BEB /* MarkerInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
 		B48F649719B22F9B00710BEB /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		B48F649B19B22FA500710BEB /* TypesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesTableViewController.swift; sourceTree = "<group>"; };
 		EF1A0FD01CD6B46600E9D142 /* HappeningHerePlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappeningHerePlaceMarker.swift; sourceTree = "<group>"; };
 		EF379E851CD54DA400DA6E29 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		EF379E871CD5810900DA6E29 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
 		EF379E891CD6945300DA6E29 /* HappeningHereDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappeningHereDataProvider.swift; sourceTree = "<group>"; };
 		EF379E8B1CD6946700DA6E29 /* HappeningHerePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappeningHerePlace.swift; sourceTree = "<group>"; };
 		EF6FCAE81CD5207700E30A44 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../Controllers/SwiftyJSON.swift; sourceTree = "<group>"; };
@@ -107,7 +101,6 @@
 				B48F648B19B22F0600710BEB /* Model */,
 				B48F648C19B22F0B00710BEB /* Views */,
 				B48F647119B22EB200710BEB /* Main.storyboard */,
-				EF379E871CD5810900DA6E29 /* PlaceMarker.swift */,
 				EF1A0FD01CD6B46600E9D142 /* HappeningHerePlaceMarker.swift */,
 				0E9DAE551BDA80A4009DA461 /* LaunchScreen.storyboard */,
 				B48F647419B22EB200710BEB /* Images.xcassets */,
@@ -158,10 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				EF6FCAE81CD5207700E30A44 /* SwiftyJSON.swift */,
-				B48F648F19B22F9400710BEB /* GoogleDataProvider.swift */,
 				EF379E891CD6945300DA6E29 /* HappeningHereDataProvider.swift */,
 				EF379E8B1CD6946700DA6E29 /* HappeningHerePlace.swift */,
-				B48F649019B22F9400710BEB /* GooglePlace.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -317,11 +308,8 @@
 			files = (
 				B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */,
 				EF1A0FD11CD6B46600E9D142 /* HappeningHerePlaceMarker.swift in Sources */,
-				B48F649219B22F9400710BEB /* GoogleDataProvider.swift in Sources */,
-				B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */,
 				EF6FCAE91CD5207700E30A44 /* SwiftyJSON.swift in Sources */,
 				EFBE46691CD5269B005265F4 /* ForGoogleMaps.m in Sources */,
-				EF379E881CD5810900DA6E29 /* PlaceMarker.swift in Sources */,
 				EF379E8C1CD6946700DA6E29 /* HappeningHerePlace.swift in Sources */,
 				B48F648E19B22F8700710BEB /* MapViewController.swift in Sources */,
 				B48F649A19B22F9B00710BEB /* UIViewExtension.swift in Sources */,

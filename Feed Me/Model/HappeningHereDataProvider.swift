@@ -21,7 +21,7 @@ class HappeningHereDataProvider {
   
   func fetchPlacesNearCoordinate(coordinate: CLLocationCoordinate2D, radius: Double, types:[String], completion: (([HappeningHerePlace]) -> Void)) -> ()
   {
-    var urlString = "https://event-tickets-tracker-runderwood5.cs50.io/api/v1/venues?location=\(coordinate.latitude),\(coordinate.longitude)&radius=\(radius)&rankby=prominence&sensor=true"
+    var urlString = "https://event-tickets-tracker-runderwood5.cs50.io/api/v1/venues/search?location=\(coordinate.latitude),\(coordinate.longitude)&radius=\(radius)&rankby=prominence&sensor=true"
     let typesString = types.count > 0 ? types.joinWithSeparator("|") : "food"
     urlString += "&types=\(typesString)"
     urlString = urlString.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
@@ -62,7 +62,7 @@ class HappeningHereDataProvider {
     if let photo = photoCache[reference] as UIImage? {
       completion(photo)
     } else {
-      let urlString = "http://localhost:10000/maps/api/place/photo?maxwidth=200&photoreference=\(reference)"
+      let urlString = "https://event-tickets-tracker-runderwood5.cs50.io/api/place/photo?maxwidth=200&photoreference=\(reference)"
       UIApplication.sharedApplication().networkActivityIndicatorVisible = true
       session.downloadTaskWithURL(NSURL(string: urlString)!) {url, response, error in
         UIApplication.sharedApplication().networkActivityIndicatorVisible = false
